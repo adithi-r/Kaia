@@ -1,0 +1,40 @@
+.s-result-item {
+    position: relative;
+}
+
+.eco-score-badge {
+    position: absolute;
+    top: 5px; /* Adjust the top position as needed */
+    right: 5px; /* Adjust the right position as needed */
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    z-index: 1; /* Ensure the badge appears above other content within the product */
+}
+
+.allergy-badge {
+    position: absolute;
+    top: 5px; /* Adjust the top position as needed */
+    left: 5px; /* Adjust the left position to leave space for the brand badge */
+    background-color: #FF5733;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    z-index: 1; /* Ensure the badge appears above other content within the product */
+}
+
+.resource-intensive-badge {
+    position: absolute;
+    bottom: 5px; /* Adjust the top position as needed */
+    left: 50%; /* Adjust the left position to center the badge */
+    transform: translateX(-50%); /* Center the badge horizontally */
+    background-color: #007bff; /* Change the color as desired */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    z-index: 1; /* Ensure the badge appears above other content within the product */
+}
